@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1 style="font-family:monospace ;"> WELCOME TO MY GAME </h1>
+
+        <style>
+        
+            
+           @keyframes ani{
+            0% {background-color: pink;}
+            25%{background-color: blue;}
+            50%{background-color: yellow;}
+            100%{background-color: green;}
+           }
+      
+     
+
+
+
+
+            .bigcontainer{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .container{
+                
+                width: 500px;
+                height: 500px;
+                display: flex;
+                background-color: beige;
+                justify-content: center;
+                flex-wrap: wrap;
+                align-items: center;
+            
+
+            }
+
+            .box{
+                width: 144px;
+                height: 150px;
+                background-color: teal;
+                margin: 1px;
+                border-radius: 10px;
+                transition: all 500ms;
+                border: 10px solid teal;
+                animation-name: ani;
+                animation-duration: 10s;
+              
+            }
+           
+
+
+            .box:hover{
+                background-color: turquoise;
+                font-size: 12px;
+                height: 200px;
+                box-shadow: 10px 10px 10px grey;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div class="bigcontainer">
+            <div class="container">
+                <div class="box"> </div>
+                <div class="box"> </div>
+                <div class="box"> </div>
+                <div class="box"> </div>
+                <div class="box"> </div>
+                <div class="box"> </div>
+                <div class="box"> </div>
+                <div class="box"> </div>
+                <div class="box"> </div>
+            
+
+            </div>
+        </div>
+        
+
+    </body>
+</html>
